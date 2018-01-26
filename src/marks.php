@@ -9,7 +9,7 @@ if ($marks === false) {
 
 <html>
 <head>
-<titleЭкзаменатор 3000></title>
+<title>Экзаменатор 3000</title>
 <link rel="stylesheet" href="static/bootstrap.min.css"/>
     <style>
         body {
