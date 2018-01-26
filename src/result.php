@@ -3,7 +3,7 @@
 if (isset($_POST['name'])) {
     $mark = rand(7, 10);
 
-    $result = file_get_contents("marks.json");
+    $result = @file_get_contents("marks.json");
     if ($result === false) {
         $result = [];
     } else {
