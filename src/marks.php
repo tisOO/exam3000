@@ -1,5 +1,5 @@
 <?php 
-$marks = file_get_contents("marks.json");
+$marks = @file_get_contents("marks.json");
 if ($marks === false) {
     $marks = [];
 } else {
